@@ -1,3 +1,5 @@
 #!/bin/bash
 
-touch "file$RANDOM"
+echo "$(date)" >> file
+
+git ac "dummy commit"
